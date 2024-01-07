@@ -25,6 +25,10 @@ const AppHeader = () => {
                         key: "phone",
                     },
                     {
+                        label: "Product",
+                        key: "product",
+                    },
+                    {
                         label: "Men",
                         key: "men",
                         children: [
