@@ -1,9 +1,10 @@
 import React from 'react'
+import ProductItem from '../../Products/Prodict'
 
 const Home = () => {
   return (
     <div>
-      <h1>I am home</h1>
+      <ProductItem />
     </div>
   )
 }
