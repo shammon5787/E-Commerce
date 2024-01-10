@@ -8,7 +8,6 @@ const AppHeader = () => {
     const onMenuClick = (item)=>{
         naviage(`/${item.key}`)
     }
-
     return (
         
         <div className='appHeader'>
@@ -18,7 +17,7 @@ const AppHeader = () => {
                 items={[
                     {
                         label: <HomeFilled />,
-                        key: "",
+                        key: "home",
                     },
                     {
                         label: <PhoneFilled />,
