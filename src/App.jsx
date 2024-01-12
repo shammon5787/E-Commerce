@@ -3,17 +3,23 @@ import './App.css'
 import AppHeader from "./Component/Header"
 import AppFotter from "./Component/Footer"
 import PageContent from "./Component/PageContent"
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import ImageCategory from "./Component/ImageCategory"
 
 function App() {
   return (
+    <>
     <BrowserRouter>
-      <div className='App'>
+    <Routes>
+      {/* <div className='App'>
         <AppHeader />
         <PageContent />
         <AppFotter />
-      </div>
+      </div> */}
+    </Routes>
     </BrowserRouter>
+    <ImageCategory />
+    </>
   )
 }
 
